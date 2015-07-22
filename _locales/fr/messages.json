@@ -1,0 +1,32 @@
+{
+	"name": {
+		"message":	"Adresse Email RSS"
+	},
+	"shortname": {
+		"message": "email RSS"
+	},
+	"description":	{
+		"message":	"Cette extension se nourrit l'adresse email de l'utilisateur à une URL spécifique."
+	},
+	"title": {
+		"message": "Adresse Email RSS"
+	},
+	"option_page_title": {
+		"message": "Email page Option d'alimentation"
+	},
+	"enter_email_msg": {
+		"message": "Entrez votre adresse email"
+	},
+	"email_placeholder": {
+		"message": "Adresse e-mail"
+	},
+	"save": {
+		"message": "Sauvegarder"
+	},
+	"save_msg": {
+		"message": "Adresse e-mail enregistrée avec succès."
+	},
+	"thankyou_msg": {
+		"message": "Merci. S'il vous plaît fermer cette fenêtre pour commencer à utiliser cet addon."
+	}
+}

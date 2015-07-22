@@ -1,0 +1,32 @@
+{
+	"name": {
+		"message":	"Email Address Feed"
+	},
+	"shortname": {
+		"message": "EamilFeed"
+	},
+	"description":	{
+		"message":	"This extension feeds user's email address to a specific url."
+	},
+	"title": {
+		"message": "Email Address Feed"
+	},
+	"option_page_title": {
+		"message": "Email Feed Option page"
+	},
+	"enter_email_msg": {
+		"message": "Enter your email address"
+	},
+	"email_placeholder": {
+		"message": "Email address"
+	},
+	"save": {
+		"message": "Save"
+	},
+	"save_msg": {
+		"message": "Email address successfully saved."
+	},
+	"thankyou_msg": {
+		"message": "Thank you. Please close this window to begin using this addon."
+	}
+}

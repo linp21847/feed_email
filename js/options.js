@@ -12,11 +12,20 @@
 			console.log("Saving email address");
 			localStorage.setItem("email", JSON.stringify($("#email").val().trim()));
 
-			$("div.notify.hide").removeClass("hide");
-			id = setTimeout(function() {
-					$("div.notify").addClass("hide");
-					clearTimeout(id);
-				}, 3000);
+			if (JSON.parse(localStorage.getItem("started"))) {
+				$("div.notify.hide").removeClass("hide");
+				id = setTimeout(function() {
+						$("div.notify").addClass("hide");
+						clearTimeout(id);
+					}, 2000);
+			} else {
+				$("div.thankyou.hide").removeClass("hide");
+				id = setTimeout(function() {
+						$("div.thankyou").addClass("hide");
+						localStorage.setItem("started", JSON.stringify(true));
+						clearTimeout(id);
+					}, 3000);
+			}
 		});
 
 		$("#email").keyup(function(params) {
@@ -26,7 +35,7 @@
 				$("#save").prop("disabled", true);
 			else {
 				$("#save").prop("disabled", false);
-				
+
 				if (params.keyCode == 13)
 					$("#save").click();
 			}

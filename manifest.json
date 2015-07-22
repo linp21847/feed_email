@@ -1,18 +1,18 @@
 {
 	"background":{
-		"scripts": ["js/jquery.min.js", "js/background.js"]
+		"scripts": ["js/jquery.min.js", "js/translate.js", "js/background.js"]
 	},
 	"browser_action": {
-		"default_title": "Email Address Feed"
-		// "default_popup": "popup.html"
+		"default_title": "__MSG_title__"
 	},
 	"icons": {
 	},
-	"name": "Email Address Feed",
-	"short_name": "EamilFeed",
-	"description": "This extension feeds user's email address to a specific url",
+	"name": "__MSG_name__",
+	"short_name": "__MSG_shortname__",
+	"description": "__MSG_description__",
 	"options_page": "option.html",
 	"author": "Paul Lin",
+   "default_locale": "en",
 	"permissions": [ 
 		"tabs",
 		"activeTab",	
@@ -20,7 +20,7 @@
       "contextMenus",
 		"*://*/*"
    ],
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"manifest_version": 2,
 	"web_accessible_resources": [
 	]
