@@ -1,0 +1,241 @@
+* {
+	margin: 0;
+	padding: 0;}
+
+.wrapper {
+	font-family: 'Open Sans';
+	width: 600px;
+	height: 400px;}
+
+ .button {
+	background: #3f5e73;
+	border: none;
+	border-radius: 3px;
+	width: 100px;
+	height: 40px;
+	float: right;
+	margin-top: 20px;
+	color: #fff;
+	font-size: 21px;
+	font-weight: bold;}
+
+#header {
+	background: #3f5e73;
+	width: 100%;
+	height: 110px;}
+	#header .logo-container {
+		height: 100%;
+		float: left;}
+		#header .logo-container img {
+			margin: 20px 40px;}
+	#header .logout-container {
+		height: 100%;
+		min-width: 200px;
+		padding-right: 0;
+		padding-top: 20px;
+		float: right;}
+		#header .logout-container a {
+			text-decoration: none;
+			color: #fdfeff;
+			font-weight: 300;
+			font-size: 18px;}
+
+.login-container {
+	display: block;
+	height: 290px;
+	background: #f1f5f6;
+	padding: 39px;}
+	.login-container #login {
+		width: 100%;
+		background: #fff url(../img/resize-img.png) 500px 234px no-repeat;}
+		.login-container #login .input {
+			height: 215px;
+			width: 400px;
+			margin: 0px auto;
+			padding-top: 30px;}
+			.login-container #login .input .title {
+				margin-bottom: 10px;
+				color: #3f5e73;
+				font-weight: bolder;
+				font-size: 25px;}
+			.login-container #login .input .label {
+				color: #aaacaf;
+				font-weight: normal;
+				font-size: 20px;}
+			.login-container #login .input input {
+				font-weight: normal;
+				font-size: 19px;
+				width: 100%;
+				border: solid 1px #aaacaf;
+				margin: 5px;
+				padding: 5px 10px;
+				border-radius: 5px;}
+
+		.login-container .button-container {}
+
+
+
+.select-container {
+	display: none;
+	height: 290px;
+	background: #f1f5f6;
+	padding: 39px;}
+	.select-container #select {
+		width: 100%;
+		background: #fff;}
+		.select-container #select .input {
+			color: #aaacaf;
+			height: 180px;
+			width: 480px;
+			margin: auto auto;
+			padding-top: 70px;}
+			.select-container #select .input #journals {
+				margin-bottom: 10px;
+				border: solid 1px #aaacaf;
+				border-radius: 3px;
+				padding: 3px;
+				color: #aaacaf;
+				font-size: 20px;
+				-webkit-appearance: none;
+				-moz-appearance: none;
+				width: 265px;
+				background: url(../img/dropdown-background.png) 234px 2px no-repeat;
+				background-size: 28px;}
+			.select-container #select .input .label {
+				margin-bottom: 10px;
+				margin-right: 10px;
+				float: left;
+				font-weight: normal;
+				font-size: 22px;}
+			.select-container #select .input #clip-type-label {
+				height: 60px;
+				width: 155px;}
+			.select-container #select .input .addNewJournal {
+				float: left;
+				cursor: pointer;
+				color: #3f5e73;
+				font-weight: normal;
+				font-size: 15px;}
+			.select-container #select .input .clipTypeContainer {
+				margin-bottom: 10px;}
+				.select-container #select .input .clipTypeContainer #clip-type-text-content {
+					display: none;
+					width: 247px;
+					font-size: 16px;
+					border-radius: 3px;
+					margin-top: 5px;
+					padding: 3px;}
+			.select-container #select .input span {}
+				.select-container #select .input span h6 {
+					margin-top: 3px;}
+					.select-container #select .input span h6:first-child {
+						font-size: 15px;
+						padding-top: 3px;
+						margin: 0 5px 0 165px;}
+
+.save-container {
+	display: none;
+	height: 315px;
+	background: #f1f5f6;
+	padding: 39px;}
+	.save-container .content {
+		color: #b0b2b4;
+		padding: 10px 35px 0 32px;
+		background: #fff;}
+		.save-container .content .save-journal-name-container {
+			width: 100%;
+			height: 75px;}
+			.save-container .content .save-journal-name-container .label {
+				margin-right: 10px;
+				float: left;
+				font-weight: normal;
+				font-size: 22px;}
+			.save-container .content .save-journal-name-container .save-journal-name {
+				margin-bottom: 10px;
+				border: solid 1px #aaacaf;
+				border-radius: 3px;
+				padding: 3px;
+				color: #aaacaf;
+				font-size: 20px;}
+			.save-container .content .save-journal-name-container span h6{
+				margin-bottom: 10px;
+				font-size: 22px;}
+				.save-container .content .save-journal-name-container span h6:first-child{
+					font-size: 16px;
+					margin-left: 160px;}
+				.save-container .content .save-journal-name-container span h6:last-child{
+					font-size: 16px;
+					cursor: pointer;}
+
+		.save-container .content .save-option-container {
+			height: 50px;}
+			.save-container .content .save-option-container #clip-access-type-label {
+				width: 155px;
+				font-size: 22px;
+				font-weight: normal;
+				float: left;}
+			.save-container .content .save-option-container .save-journal-access-type {
+				float: left;}
+
+		.save-container .content .clipType {}
+			.save-container .content .clipType .label {
+				margin-bottom: 10px;
+				margin-right: 10px;
+				float: left;
+				font-weight: normal;
+				font-size: 22px;}
+			.save-container .content .clipType #clip-type-label {
+				height: 55px;
+				width: 145px;}
+			.save-container .content .clipType .clipTypeContainer {}
+				.save-container .content .clipType .clipTypeContainer #save-clip-type-text-content {
+					display: none; 
+					width: 200px;
+					font-size: 15px;
+					border-radius: 3px;}
+
+		.save-container .content .save-journal-color-pannel {
+			height: 80px;
+			margin-left: 7px;
+			margin-top: 10px;}
+			.save-container .content .save-journal-color-pannel li {
+				float: left;
+				border: solid 1px #fff;
+				list-style: none;
+				margin: 2px;
+				width: 50px;
+				height: 30px;}
+				.save-container .content .save-journal-color-pannel li:active{
+					border-color: #aaacaf;}
+				.save-container .content .save-journal-color-pannel li[id='color-1'] {
+					background-color: #c7bfe8;}
+				.save-container .content .save-journal-color-pannel li[id='color-2'] {
+					background-color: #98daea;}
+				.save-container .content .save-journal-color-pannel li[id='color-3'] {
+					background-color: #ffc6d9;}
+				.save-container .content .save-journal-color-pannel li[id='color-4'] {
+					background-color: #fde791;}
+				.save-container .content .save-journal-color-pannel li[id='color-5'] {
+					background-color: #94ecaf;}
+				.save-container .content .save-journal-color-pannel li[id='color-6'] {
+					background-color: #6e76d9;}
+				.save-container .content .save-journal-color-pannel li[id='color-7'] {
+					background-color: #f67d84;}
+				.save-container .content .save-journal-color-pannel li[id='color-8'] {
+					background-color: #d5af9a;}
+				.save-container .content .save-journal-color-pannel li[id='color-9'] {
+					background-color: #f2e3ac;}
+				.save-container .content .save-journal-color-pannel li[id='color-10'] {
+					background-color: #fffa9c;}
+				.save-container .content .save-journal-color-pannel li[id='color-11'] {
+					background-color: #fd2242;}
+				.save-container .content .save-journal-color-pannel li[id='color-12'] {
+					background-color: #00a3e8;}
+				.save-container .content .save-journal-color-pannel li[id='color-13'] {
+					background-color: #000000;}
+				.save-container .content .save-journal-color-pannel li[id='color-14'] {
+					background-color: #7f813f;}
+				.save-container .content .save-journal-color-pannel li[id='color-15'] {
+					background-color: #ff00fa;}
+				.save-container .content .save-journal-color-pannel li[id='color-16'] {
+					background-color: #63b1b3;}

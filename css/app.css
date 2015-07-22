@@ -1,0 +1,13 @@
+* {
+	font-family: 'Open Sans';
+	margin: 0;
+	padding: 0;}
+
+.container {
+	position: relative;}
+	.container div.notify {
+	}
+	.container button {
+		float:right;
+		padding-left:20px;
+		padding-right:20px;}
